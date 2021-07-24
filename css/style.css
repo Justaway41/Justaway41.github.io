@@ -2,9 +2,6 @@
   outline: 1px solid red;
 } */
 
-/* .text-left {
-  width: 100%;
-} */
 .my-div {
   border-radius: 4px;
   transition: all 500ms;
@@ -14,4 +11,75 @@
 .my-div:hover {
   box-shadow: 0px 0.35em 1.175em, 0px 0.175em 0.5em;
   transform: translateY(-3px) scale(1.1);
+}
+.modal-footer {
+  padding: 0;
+  border-top: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.modal-header .btn-close {
+  padding: 0;
+  margin: 0;
+}
+.modal-header {
+  justify-content: flex-end;
+}
+iframe {
+  position: sticky;
+}
+.texts {
+  position: relative;
+}
+.modal-title {
+  padding-right: 33%;
+}
+.button-blue {
+  margin-top: 12% !important;
+}
+.button-voilet {
+  margin-top: 40% !important;
+}
+.button-demon {
+  margin-top: 22% !important;
+}
+.button-onepiece {
+  margin-top: 30% !important;
+}
+.signup-title {
+  padding-right: 80% !important;
+}
+/* ####################### index page content ##################################### */
+.img-for-container {
+  height: 156px;
+  width: 100px;
+}
+.img-for-container img {
+  width: 100%;
+  height: 100%;
+}
+.contain-title:hover h3 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.text-for-container {
+  line-height: 35px;
+}
+.features {
+  padding: 3%;
+}
+@media only screen and (max-width: 600) {
+  .resize {
+    align-items: center;
+    justify-content: center;
+  }
+  .img-for-container {
+    height: 250px;
+    width: 250px;
+  }
+  .img-for-container img {
+    width: 100%;
+    height: 100%;
+  }
 }
